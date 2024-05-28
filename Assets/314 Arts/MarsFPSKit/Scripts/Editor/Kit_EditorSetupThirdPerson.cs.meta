@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 70850a66b54ebe04a91e08de6cf70adb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - playerAnimator: {fileID: 9100000, guid: 1f3608dda369a5b4ab9d9d0f06fc963b, type: 2}
+  - anim: {instanceID: 0}
+  - animStates: {fileID: 11400000, guid: 73a1026a74bcc1441be105231917f32f, type: 2}
+  - pelvis: {instanceID: 0}
+  - leftHips: {instanceID: 0}
+  - leftKnee: {instanceID: 0}
+  - leftFoot: {instanceID: 0}
+  - rightHips: {instanceID: 0}
+  - rightKnee: {instanceID: 0}
+  - rightFoot: {instanceID: 0}
+  - leftArm: {instanceID: 0}
+  - leftElbow: {instanceID: 0}
+  - rightArm: {instanceID: 0}
+  - rightElbow: {instanceID: 0}
+  - middleSpine: {instanceID: 0}
+  - head: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

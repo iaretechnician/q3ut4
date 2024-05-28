@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 3d8325cd3a8f29c4c9d1c47e76fd5df0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - weaponPicture: {instanceID: 0}
+  - weaponHudPicture: {instanceID: 0}
+  - weaponQuickUsePicture: {instanceID: 0}
+  - weaponKillfeedImage: {instanceID: 0}
+  - unlockImage: {instanceID: 0}
+  - firstPersonPrefab: {instanceID: 0}
+  - thirdPersonPrefab: {instanceID: 0}
+  - dropPrefab: {instanceID: 0}
+  - runtimeDataPrefab: {fileID: 2561252005214513375, guid: 822204d03d85f8645b3fd32a822d24ef,
+      type: 3}
+  - grenadePrefab: {instanceID: 0}
+  - drawSound: {instanceID: 0}
+  - putawaySound: {instanceID: 0}
+  - pullPinSound: {instanceID: 0}
+  - throwSound: {instanceID: 0}
+  - pullPinQuickSound: {instanceID: 0}
+  - throwQuickSound: {instanceID: 0}
+  - genericGunAnimatorControllerPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

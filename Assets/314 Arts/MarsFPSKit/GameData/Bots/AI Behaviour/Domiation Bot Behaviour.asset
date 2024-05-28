@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1523c49eb4b565a4a9eaf1000578abd7, type: 3}
+  m_Name: Domiation Bot Behaviour
+  m_EditorClassIdentifier: 
+  spottingLayer:
+    serializedVersion: 2
+    m_Bits: 8192
+  spottingCheckLayers:
+    serializedVersion: 2
+    m_Bits: 8705
+  spottingMaxDistance: 50
+  spottingBoxExtents: {x: 30, y: 30}
+  spottingFov: 160
+  spottingRayDistance: 200
+  lookingInputSmooth: 20
+  shootingAngleDifference: 20
+  useLength: 10

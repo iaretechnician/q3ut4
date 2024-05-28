@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6021399044890787865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2556308641137526475}
+  - component: {fileID: 1906743732259836237}
+  - component: {fileID: 1887441467775070800}
+  m_Layer: 0
+  m_Name: PlayerDataModernWeaponScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2556308641137526475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021399044890787865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1906743732259836237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021399044890787865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  _assetId: 0
+  serverOnly: 0
+  visible: 0
+  hasSpawned: 0
+--- !u!114 &1887441467775070800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021399044890787865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8763bc55832d29443b733c82f2e19344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0.1
+  instantiatedObjects: []
+  behaviour: {fileID: 0}
+  slot: 0
+  id: 0
+  isInjectedFromPlugin: 0
+  isSelectedAndReady: 0
+  isSelected: 0
+  bulletsLeft: 0
+  bulletsLeftToReload: 0
+  reloadInProgress: 0
+  weaponRenderer: {fileID: 0}
+  tpWeaponRenderer: {fileID: 0}
+  genericAnimator: {fileID: 0}
+  isFiring: 0
+  lastFire: 0
+  lastRun: 0
+  reloadNextEnd: 0
+  reloadPhase: 0
+  cancelProceduralReload: 0
+  isAiming: 0
+  lastIsAiming: 0
+  aimingProgress: 0
+  sniperWeaponHidden: 0
+  aimingTransform: {fileID: 0}
+  weaponDelayTransform: {fileID: 0}
+  weaponDelayCur: {x: 0, y: 0, z: 0}
+  weaponDelayCurrentX: 0
+  weaponDelayCurrentY: 0
+  weaponFallTransform: {fileID: 0}
+  shellEjectEnabled: 0
+  shellEjectNext: 0
+  boltActionState: 0
+  boltActionTime: 0
+  lastWeaponAnimationID: 0
+  sprayPatternState: 0
+  startedRunAnimation: 0
+  soundFire: {fileID: 0}
+  soundReload: {fileID: 0}
+  soundOther: {fileID: 0}
+  lastLmb: 0
+  lastRmb: 0
+  lastReload: 0
+  fireMode: 0
+  fireRate: 0.1
+  bulletsPerMag: 30
+  bulletsToReloadAtStart: 60
+  baseDamage: 30
+  range: 500
+  damageDropoff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -0.0004
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 500
+      value: 0.8
+      inSlope: -0.0004
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  fireTypeMode: 0
+  burstBulletsPerShot: 3
+  burstTimeBetweenShots: 0.1
+  amountOfPellets: 12
+  speedMultiplierBase: 1
+  ragdollForce: 500
+  bulletsMode: 0
+  bulletsPenetrationEnabled: 1
+  bulletsPenetrationForce: 3
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 200
+  bulletHideForFrames: 3
+  bulletGravityMultiplier: 1
+  bulletLifeTime: 10
+  bulletStaysAliveAfterDeath: 0
+  bulletStaysAliveAfterDeathTime: 10
+  bulletSpreadMode: 0
+  bulletSpreadHipBase: 0.1
+  bulletSpreadHipVelocityAdd: 0.1
+  bulletSpreadHipVelocityReference: 6
+  bulletSpreadAimBase: 0.01
+  bulletSpreadAimVelocityAdd: 0.02
+  bulletSpreadAimVelocityReference: 6
+  bulletSpreadSprayPattern:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  bulletSpreadSprayPatternRecoverySpeed: 1
+  recoilPerShotMin: {x: -0.1, y: 0.5}
+  recoilPerShotMax: {x: 0.1, y: 1}
+  recoilApplyTime: 0.1
+  recoilReturnSpeed: 6

@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0450fe2a9b03ec488e82c9014ca2c9a, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun
+  weaponPicture: {fileID: 21300000, guid: 0a48b95b30857d74e8afbf46b49e8510, type: 3}
+  weaponHudPicture: {fileID: 21300000, guid: 0a48b95b30857d74e8afbf46b49e8510, type: 3}
+  weaponQuickUsePicture: {fileID: 0}
+  weaponKillfeedImage: {fileID: 0}
+  weaponType: Primary
+  weaponLoadoutSubCategory: Shotguns
+  canFitIntoSlots: 0000000001000000
+  levelToUnlockAt: -1
+  unlockImage: {fileID: 21300000, guid: 0a48b95b30857d74e8afbf46b49e8510, type: 3}
+  firstPersonPrefab: {fileID: 1505178247879106, guid: bf36cd48df495be45b3c4ca88b751663,
+    type: 3}
+  thirdPersonPrefab: {fileID: 1608134390339194, guid: 3ece8a5310dc35e46a4c98fa54776263,
+    type: 3}
+  dropPrefab: {fileID: 1813400631519890, guid: 7fd2deec5a9148940b6a7a8b49a80556, type: 3}
+  runtimeDataPrefab: {fileID: 6021399044890787865, guid: 6bcd959bbbd366f43b1271208a5b2975,
+    type: 3}
+  thirdPersonAnimType: Rifle
+  drawTime: 1
+  putawayTime: 0.5
+  deathSoundCategory: 2
+  springPosConfig:
+    stiffness: {x: 0.1, y: 0.1, z: 0.1}
+    damping: {x: 0.3, y: 0.3, z: 0.3}
+    lerpSpeed: 20
+  springRotConfig:
+    stiffness: {x: 0.1, y: 0.1, z: 0.1}
+    damping: {x: 0.3, y: 0.3, z: 0.3}
+    lerpSpeed: 20
+  fireMode: 3
+  RPM: 260
+  bulletsPerMag: 7
+  bulletsToReloadAtStart: 42
+  baseDamage: 20
+  range: 30
+  damageDropoff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2
+      value: 1
+      inSlope: 0
+      outSlope: -0.06612862
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 29.905548
+      value: 0
+      inSlope: -0.009078008
+      outSlope: -0.009078008
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  fireTypeMode: 1
+  burstBulletsPerShot: 3
+  burstTimeBetweenShots: 0.1
+  amountOfPellets: 12
+  speedMultiplierBase: 1
+  ragdollForce: 500
+  attachmentSlotsSpecific:
+  - slotName: Sights
+    availableAttachmentsSpecific:
+    - {fileID: 11400000, guid: 37852efc701d37a479fff049a8dc4cf6, type: 2}
+    - {fileID: 11400000, guid: 3808384ee7d12124c89a199c7e86dd07, type: 2}
+    overrideSlot: {fileID: 0}
+  attachmentSlotOverride: {fileID: 0}
+  setEmptyBool: 0
+  setAimingBool: 0
+  setAimingProgress: 0
+  setMovementDirection: 0
+  crosshairEnabled: 1
+  crosshairSizeMultiplier: 1000
+  bulletsMode: 0
+  bulletsPenetrationEnabled: 1
+  bulletsPenetrationForce: 3
+  bulletPrefab: {fileID: 1481820360812430, guid: 08602221d5d6bef4d9ee10e599f504bf,
+    type: 3}
+  bulletSpeed: 200
+  bulletHideForFrames: 3
+  bulletGravityMultiplier: 1
+  bulletLifeTime: 10
+  bulletStaysAliveAfterDeath: 0
+  bulletStaysAliveAfterDeathTime: 10
+  bulletSpreadMode: 0
+  bulletSpreadHipBase: 0.09
+  bulletSpreadHipVelocityAdd: 0.06
+  bulletSpreadHipVelocityReference: 6
+  bulletSpreadAimBase: 0.04
+  bulletSpreadAimVelocityAdd: 0.04
+  bulletSpreadAimVelocityReference: 6
+  bulletSpreadSprayPattern:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  bulletSpreadSprayPatternRecoverySpeed: 1
+  recoilPerShotMin: {x: -2, y: 3}
+  recoilPerShotMax: {x: 0.5, y: 6}
+  recoilApplyTime: 0.1
+  recoilReturnSpeed: 3
+  reloadMode: 4
+  reloadProceduralAddBulletDuringStartEmpty: 0
+  reloadTimeOne: 1.9998
+  reloadTimeTwo: 1.3332
+  reloadEmptyTimeOne: 1.845
+  reloadEmptyTimeTwo: 2.255
+  reloadProceduralStartTime: 0.7
+  reloadProceduralEmptyStartTime: 0.7
+  reloadProceduralEmptyInsertStartTimeOne: 0
+  reloadProceduralEmptyInsertStartTimeTwo: 0
+  reloadProceduralInsertTimeOne: 0.6069
+  reloadProceduralInsertTimeTwo: 0.2601
+  reloadProceduralEndTime: 0.5
+  reloadSound: {fileID: 8300000, guid: 8d6dcad8e86e27e4886a84f300160eae, type: 3}
+  reloadSoundEmpty: {fileID: 8300000, guid: 8d6dcad8e86e27e4886a84f300160eae, type: 3}
+  reloadSoundThirdPersonMaxRange: 20
+  reloadSoundThirdPersonRolloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.98635864
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.1417863
+      outSlope: -2.1417863
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reloadProceduralStartSound: {fileID: 0}
+  reloadProceduralStartEmptySound: {fileID: 0}
+  reloadProceduralInsertSound: {fileID: 8300000, guid: 60c9b4e151d0cf24fad2c9ec155109d7,
+    type: 3}
+  reloadProceduralEndSound: {fileID: 0}
+  aimEnabled: 1
+  aimInTime: 0.2
+  aimOutTime: 0.2
+  aimSpeedMultiplier: 0.5
+  weaponDelayBaseAmount: 30
+  weaponDelayMaxAmount: 0.02
+  weaponDelayAimingMultiplier: 0.3
+  weaponDelaySmooth: 4
+  weaponTiltEnabled: 1
+  weaponTiltEnabledWhileAiming: 0
+  weaponTiltIntensity: 5
+  weaponTiltReturnSpeed: 6
+  fallDownAmount: 10
+  fallDownMinOffset: -6
+  fallDownMaxoffset: 6
+  fallDownTime: 0.1
+  fallDownReturnSpeed: 6
+  shellEjectionPrefab: {fileID: 1600355728333598, guid: 55bae48e418241046979cc618ba3d9de,
+    type: 3}
+  shellEjectionTime: 0.5
+  shellEjectionMinForce: {x: 60, y: 0, z: 0}
+  shellEjectionMaxForce: {x: 65, y: 0, z: 0}
+  shellEjectionMinTorque: {x: 0, y: 0, z: 0}
+  shellEjectionMaxTorque: {x: 0, y: 0, z: 0}
+  timeCannotFireAfterRun: 0.3
+  drawSound: {fileID: 8300000, guid: e8298f3bf5506494a9ab052bc712375f, type: 3}
+  putawaySound: {fileID: 0}
+  fireSound: {fileID: 8300000, guid: 8760e3eac17666745b5babf8246c287f, type: 3}
+  fireSoundThirdPerson: {fileID: 8300000, guid: 8760e3eac17666745b5babf8246c287f,
+    type: 3}
+  boltActionDelayNormal: 0.23
+  boltActionSoundNormal: {fileID: 8300000, guid: 867978d1a4767eb4ebdbe9ff2c7418cc,
+    type: 3}
+  boltActionTimeNormal: 0.8
+  boltActionDelayLast: 0.23
+  boltActionSoundLast: {fileID: 8300000, guid: 867978d1a4767eb4ebdbe9ff2c7418cc, type: 3}
+  boltActionTimeLast: 0.8
+  boltActionSoundThirdPersonMaxRange: 20
+  boltActionSoundThirdPersonRolloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 20
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  fireSoundThirdPersonMaxRange: 100
+  fireSoundThirdPersonRolloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.23701277
+      outSlope: -0.23701277
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.0058935
+      outSlope: -2.0058935
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  dryFireSound: {fileID: 8300000, guid: 2ef1f99c46da1c445a38192092d97d8b, type: 3}
+  enableWalkAnimationWhileAiming: 0
+  genericGunAnimatorControllerPrefab: {fileID: 1896438800841234, guid: 32d35967d844b94479b79cb464e4bea5,
+    type: 3}
+  useGenericWalkAnim: 1
+  useGenericRunAnim: 1

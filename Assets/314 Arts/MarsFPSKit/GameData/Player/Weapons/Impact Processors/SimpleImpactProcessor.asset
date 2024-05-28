@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61756866ab4eda545a6dbac9dbf40044, type: 3}
+  m_Name: SimpleImpactProcessor
+  m_EditorClassIdentifier: 
+  bulletImpacts:
+    m_keys:
+    - Concrete
+    - Dirt
+    - Metal
+    - Wood
+    - PlayerCollider
+    m_values:
+    - impactParticle:
+      - {fileID: 1183611002159684, guid: e05dd260c5ca7b741914cf4142fdf00c, type: 3}
+      canBeParented: 1
+      materials:
+      - {fileID: 2100000, guid: b2779799a79948a41bf2fef420588946, type: 2}
+      - {fileID: 2100000, guid: 9f6c7f7486a4b254289f612b1178750c, type: 2}
+      - {fileID: 2100000, guid: 6b7f80e07c644214488dfe4f780b5a11, type: 2}
+    - impactParticle:
+      - {fileID: 1054734845644930, guid: 03de6bc49ffb0c4419c754b4fd50f3e7, type: 3}
+      canBeParented: 1
+      materials:
+      - {fileID: 2100000, guid: b2779799a79948a41bf2fef420588946, type: 2}
+      - {fileID: 2100000, guid: 9f6c7f7486a4b254289f612b1178750c, type: 2}
+      - {fileID: 2100000, guid: 6b7f80e07c644214488dfe4f780b5a11, type: 2}
+    - impactParticle:
+      - {fileID: 1221112346363138, guid: 5e1398bbdd8c84a47b1030aeb3308e97, type: 3}
+      canBeParented: 1
+      materials:
+      - {fileID: 2100000, guid: 27fb0a13bc3ddd5418b41b2b6079fccc, type: 2}
+      - {fileID: 2100000, guid: 0f164ea804ecb9c42984edfd155fb5c2, type: 2}
+      - {fileID: 2100000, guid: 0f99de23900dcb942aa6e10992538543, type: 2}
+    - impactParticle:
+      - {fileID: 1731267177394854, guid: bac3c2c333ea94842ae57069d47c0966, type: 3}
+      canBeParented: 1
+      materials:
+      - {fileID: 2100000, guid: bc6169ad12088cf42b4270eee0c13320, type: 2}
+      - {fileID: 2100000, guid: 0081585ef349c414aaadbc6ba73cb399, type: 2}
+      - {fileID: 2100000, guid: 32a2f8a35e4549c49a2783a6d8372482, type: 2}
+    - impactParticle:
+      - {fileID: 1000012909287652, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
+      canBeParented: 0
+      materials: []
+  bulletMarksPrefab: {fileID: 1829566329350514, guid: 52c83c91e260f0d428b60db6e9b93ca5,
+    type: 3}
+  bulletMarksNormalOffset: 0.01
+  bulletMarksLifetime: 15
+  defaultObjectPoolingFill: 30

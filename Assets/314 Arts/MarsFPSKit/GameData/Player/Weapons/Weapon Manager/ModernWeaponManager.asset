@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d58c4a6eb609d444aeec3ac019b9a4e, type: 3}
+  m_Name: ModernWeaponManager
+  m_EditorClassIdentifier: 
+  networkData: {fileID: 7871714316933351138, guid: dfbb241cd95fd4449ac966f490c0a07a,
+    type: 3}
+  slotConfiguration:
+  - enableEquipping: 1
+    equippingInputID: 0
+    enableQuickUse: 1
+    quickUseInputID: -1
+  - enableEquipping: 1
+    equippingInputID: 1
+    enableQuickUse: 0
+    quickUseInputID: -1
+  - enableEquipping: 1
+    equippingInputID: 6
+    enableQuickUse: 1
+    quickUseInputID: 4
+  - enableEquipping: 1
+    equippingInputID: 5
+    enableQuickUse: 1
+    quickUseInputID: 2
+  - enableEquipping: 1
+    equippingInputID: 9
+    enableQuickUse: 1
+    quickUseInputID: 7
+  - enableEquipping: 1
+    equippingInputID: 10
+    enableQuickUse: 1
+    quickUseInputID: 11
+  dropPrefab: {fileID: 1168763242038898, guid: cdb7ff000b9c70849929e2222b4210bc, type: 3}
+  pickupLayers:
+    serializedVersion: 2
+    m_Bits: 3223313463
+  pickupDistance: 3
+  uponDeathDrop: 2
+  weaponPositionChangeSpeed: 10
+  allowSwitchingWhileRunning: 1
+  allowQuickUseWhileRunning: 0

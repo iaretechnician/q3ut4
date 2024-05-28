@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbb901be2ba73d4e907f2074803ed86, type: 3}
+  m_Name: Spectator Default Manager
+  m_EditorClassIdentifier: 
+  enableSpectating: 1
+  spectatingUi: {fileID: 4654521844894841903, guid: 3d1d6d161d593894cb26f2522885345f,
+    type: 3}

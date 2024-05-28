@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e5b5b2ed89b174cb76419c0fa01e42, type: 3}
+  m_Name: Swimming
+  m_EditorClassIdentifier: 
+  weaponName: Unarmed
+  weaponPicture: {fileID: 0}
+  weaponHudPicture: {fileID: 0}
+  weaponQuickUsePicture: {fileID: 0}
+  weaponKillfeedImage: {fileID: 0}
+  weaponType: Primary
+  weaponLoadoutSubCategory: Assault Rifle
+  canFitIntoSlots: 00000000
+  levelToUnlockAt: -1
+  unlockImage: {fileID: 0}
+  firstPersonPrefab: {fileID: 1210150727871548, guid: 569782952cea22d4881558b1a427dcb3,
+    type: 3}
+  thirdPersonPrefab: {fileID: 0}
+  dropPrefab: {fileID: 0}
+  runtimeDataPrefab: {fileID: 4714867640453439171, guid: a3419e9bcf1b3cd458edf956d2576f5a,
+    type: 3}
+  thirdPersonAnimType: Rifle
+  drawTime: 0.44443333
+  putawayTime: 0.5
+  deathSoundCategory: 0
+  drawSound: {fileID: 0}
+  putawaySound: {fileID: 0}
+  voiceArmsSwimmingSoundID: 0
+  weaponDelayBaseAmount: 1
+  weaponDelayMaxAmount: 0.02
+  weaponDelayAimingMultiplier: 0.3
+  weaponDelaySmooth: 3
+  weaponTiltEnabled: 1
+  weaponTiltIntensity: 5
+  weaponTiltReturnSpeed: 3
+  fallDownAmount: 10
+  fallDownMinOffset: -6
+  fallDownMaxoffset: 6
+  fallDownTime: 0.1
+  fallDownReturnSpeed: 1
+  genericGunAnimatorControllerPrefab: {fileID: 1896438800841234, guid: 32d35967d844b94479b79cb464e4bea5,
+    type: 3}
+  useGenericWalkAnim: 1
+  useGenericRunAnim: 1

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca56eafab49c7947b7b594c995450e1, type: 3}
+  m_Name: Simple
+  m_EditorClassIdentifier: 
+  enemySpotted:
+  - {fileID: 8300000, guid: 0e27aa19fa67575438914d224af44f9a, type: 3}
+  - {fileID: 8300000, guid: 17c8dcad324574e4eb019428e4fb2e6a, type: 3}
+  - {fileID: 8300000, guid: 2d63be1f8af551948966e0bb5f06cd14, type: 3}
+  - {fileID: 8300000, guid: 9960e9ed03c55e14188bf36b4318f553, type: 3}
+  - {fileID: 8300000, guid: 6efdf73a8f8b4554d8a31b30275cff71, type: 3}
+  damageTakenProjectile:
+  - {fileID: 8300000, guid: 6be6909a406da6545bbe05349d1021de, type: 3}
+  - {fileID: 8300000, guid: 62142297ece0a644d9c78846138f55ec, type: 3}
+  - {fileID: 8300000, guid: 594165ebfe49ee748a6598f97ddb593b, type: 3}
+  - {fileID: 8300000, guid: ef2c02e5a0f3dc7409cbf5256ba06a38, type: 3}
+  - {fileID: 8300000, guid: e75281939ea63e64b8a194493964cf52, type: 3}
+  - {fileID: 8300000, guid: b69d96091486d844f818d85a8664e6fb, type: 3}
+  - {fileID: 8300000, guid: 5014ae259ad5c1840856a3cfcae18ec4, type: 3}
+  damageTakenOthers:
+  - {fileID: 8300000, guid: 959d40df37d185a46ac4073147d88ac7, type: 3}
+  - {fileID: 8300000, guid: d5a43eff8448a7d49b08cec32968d0fb, type: 3}
+  - {fileID: 8300000, guid: ef6d8ab99676fa34cbd63f1add65cc5c, type: 3}
+  - {fileID: 8300000, guid: d2b5e17d64e02234b8e3c291002eacf9, type: 3}
+  enemyKilled:
+  - {fileID: 8300000, guid: 8df7432350b6ada4bb742e835e53e745, type: 3}
+  - {fileID: 8300000, guid: c38229bdebbcaaf42ad976567cc25928, type: 3}
+  - {fileID: 8300000, guid: fd99ec63c114dc0499f37bd1c536cd05, type: 3}
+  - {fileID: 8300000, guid: 6852be8ff3e28fc41a2cc2b487baf509, type: 3}
+  - {fileID: 8300000, guid: cb1607cd53489c243ba41a0b291898d3, type: 3}
+  reloading:
+  - {fileID: 8300000, guid: c17ef0329b33da44f97ccacd015e720a, type: 3}
+  - {fileID: 8300000, guid: 7ed057b8528d6e7409b8bf7ea6db0227, type: 3}
+  - {fileID: 8300000, guid: 5becb35aa2be9804bb2c8246c2a1b89b, type: 3}
+  - {fileID: 8300000, guid: b5a6c9b199afe9146922149e901679e9, type: 3}
+  - {fileID: 8300000, guid: 95d64931a2597c041a47bc2a4b1daf30, type: 3}
+  grenadeThrown:
+  - clips:
+    - {fileID: 8300000, guid: e3dd423121f2e3646bc2a8e20b73c02b, type: 3}
+    - {fileID: 8300000, guid: 62817422f46496d46a6166a90d5ab163, type: 3}
+    - {fileID: 8300000, guid: ed50e904246e14f49802ca6f03cee0ec, type: 3}
+    - {fileID: 8300000, guid: ff0d445b7f7ad3b4993b6ef6db5e58c9, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 13728b7041f6a7646859ba9a5e1d9cbb, type: 3}
+    - {fileID: 8300000, guid: 27fd73caecad3fd43af81f2444ac5c53, type: 3}
+    - {fileID: 8300000, guid: 635a9433082f32248a1c25ba8eb1e8b3, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 8b5203bc06ce02248b6ac9132bfc5558, type: 3}
+    - {fileID: 8300000, guid: a0f1365c06a63ac48b7b70e6e52906c4, type: 3}
+    - {fileID: 8300000, guid: 843dfad4232f98a48b6b55e3cb5c5c6d, type: 3}
+  meleeUsed:
+  - clips:
+    - {fileID: 8300000, guid: 0ca65ca841d6c6149a1bf7f0bd84c8fc, type: 3}
+    - {fileID: 8300000, guid: 07b3bbabb36ff8a4390817e9ce40f01c, type: 3}
+    - {fileID: 8300000, guid: 9e00f7c1709236348ac98fe6cd63b58a, type: 3}
+  deathSounds:
+  - clips:
+    - {fileID: 8300000, guid: 2ce23cfd103ad554db25debc64e71b3e, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 63369d0f8c42bd74b9d5a70f36f5d798, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 8ee23fd1782ea6d4081e04d5a005b3bc, type: 3}
+    - {fileID: 8300000, guid: 0b6b3123fe232714e80249538ecc0dc4, type: 3}
+    - {fileID: 8300000, guid: 40664b2000b6f8c47b3a9666b83e5492, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 9ea381ff369fde247b1a84e9dd73e836, type: 3}
+    - {fileID: 8300000, guid: 67fcbe77fce58b8449d0c8f466c1a554, type: 3}
+    - {fileID: 8300000, guid: 17416195823f3154da6074fe60460a08, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: b9326317dff9a6f4cb7bf9c601d0ea4f, type: 3}
+    - {fileID: 8300000, guid: 1e015d2895128d6489947dc3cbe17c6a, type: 3}
+    - {fileID: 8300000, guid: 1328872081deb794b95695e0f520629b, type: 3}

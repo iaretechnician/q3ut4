@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c526cf238da00b4f9f03ac7baafb350, type: 3}
+  m_Name: Unselectable Weapon
+  m_EditorClassIdentifier: 
+  weaponName: 
+  weaponPicture: {fileID: 0}
+  weaponHudPicture: {fileID: 0}
+  weaponQuickUsePicture: {fileID: 0}
+  weaponKillfeedImage: {fileID: 0}
+  weaponType: Primary
+  weaponLoadoutSubCategory: Assault Rifle
+  canFitIntoSlots: 00000000
+  levelToUnlockAt: -1
+  unlockImage: {fileID: 0}
+  firstPersonPrefab: {fileID: 0}
+  thirdPersonPrefab: {fileID: 0}
+  dropPrefab: {fileID: 0}
+  runtimeDataPrefab: {fileID: 4714867640453439171, guid: a3419e9bcf1b3cd458edf956d2576f5a,
+    type: 3}
+  thirdPersonAnimType: Rifle
+  drawTime: 0.5
+  putawayTime: 0.5
+  deathSoundCategory: 0

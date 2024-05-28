@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4ba7e82b22ace4f9152c015b63e1e1, type: 3}
+  m_Name: GenericBootsOnGround
+  m_EditorClassIdentifier: 
+  networkData: {fileID: 3228553288635496482, guid: 7218a697cc27ffe4499cdb0b6006ea96,
+    type: 3}
+  sprintSpeed: 7.5
+  walkSpeed: 5
+  crouchSpeed: 3
+  airControlEnabled: 1
+  airControlSprintControl: 1
+  gravityMultiplier: 2.2
+  jumpSpeed: 8
+  jumpMaxCount: 2
+  jumpStaminaCost: 3
+  jumpAnimations:
+  - Jump
+  - Jump
+  jumpSound:
+  - clips:
+    - {fileID: 0}
+  - clips:
+    - {fileID: 0}
+  jumpLandSound:
+  - clips:
+    - {fileID: 0}
+  - clips:
+    - {fileID: 0}
+  standHeight: 1.8
+  crouchHeight: 1.2
+  camPosSmoothSpeed: 6
+  camPosStand: {x: 0, y: 1.7, z: 0}
+  camPosCrouch: {x: 0, y: 0.85, z: 0}
+  fallDamageThreshold: 6
+  fallDamageMultiplier: 5
+  defaultYmove: -0.5
+  footstepsRunTime: 0.28
+  footstepsWalkTime: 0.4
+  footstepsCrouchTime: 0.7
+  footstepsRunVolume: 0.8
+  footstepsWalkVolume: 0.4
+  footstepsCrouchVolume: 0.1
+  allFootsteps:
+    m_keys:
+    - Concrete
+    - Dirt
+    - Wood
+    m_values:
+    - clips:
+      - {fileID: 8300000, guid: 73bff13ccb1f32b45864308b22daf1a6, type: 3}
+      - {fileID: 8300000, guid: de37236e3d80e3f46a5d481ebcc0fdfd, type: 3}
+      maxDistance: 20
+      rollOff:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: -0.05
+          outSlope: -0.05
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 20
+          value: 0
+          inSlope: -0.05
+          outSlope: -0.05
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+    - clips:
+      - {fileID: 8300000, guid: 212e1770266803747a1956cfeab9ea26, type: 3}
+      - {fileID: 8300000, guid: 1f328f63603fbe04fa262856abf4474c, type: 3}
+      maxDistance: 20
+      rollOff:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: -0.05
+          outSlope: -0.05
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 20
+          value: 0
+          inSlope: -0.05
+          outSlope: -0.05
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+    - clips:
+      - {fileID: 8300000, guid: d4913e055803d4c46b09f314bf4b1afe, type: 3}
+      - {fileID: 8300000, guid: 2a40f78af3c750a49a2af950073a8fe2, type: 3}
+      maxDistance: 20
+      rollOff:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: -0.05
+          outSlope: -0.05
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 20
+          value: 0
+          inSlope: -0.05
+          outSlope: -0.05
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  fallDownAmount: 10
+  fallDownMinOffset: -6
+  fallDownMaxoffset: 6
+  fallDownTime: 0.1
+  fallDownReturnSpeed: 4
+  staminaSystemEnabled: 1
+  staminaDecreaseRate: 10
+  staminaIncreaseRate: 30
+  staminaPauseRateNotEmpty: 2
+  staminaPauseRateEmpty: 5
+  staminaDepletedSprintBlockTime: 7
+  staminaExhaustedSound:
+  - {fileID: 8300000, guid: 600d77f28ccebc146a8cff28edcc1158, type: 3}
+  swimmingSpeed: 5
+  swimmingInputLerpSpeed: 5
+  swimmingHeight: 1.8
+  swimmingWeapon: {fileID: 11400000, guid: 46687f0908268384e950d07666434ffc, type: 2}
+  swimmingEnableDrowning: 1
+  swimmingDrowningTime: 5
+  swimmingDrowningRecoveryTime: 5
+  swimmingDrowningDamageTimes: {x: 1, y: 3}
+  swimmingDrowningDamage: {x: 10, y: 20}
+  history: 1
+  deltaMultiplier: 2
+  teleportDistance: 2

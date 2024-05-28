@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92fcbeaee0520124fbb343fc73aeaf38, type: 3}
+  m_Name: Game
+  m_EditorClassIdentifier: 
+  masterServer: {fileID: 11400000, guid: 51bf5752c01626b488395e3b49b46e30, type: 2}
+  transport: {fileID: 11400000, guid: 54fb495a7cb3115488f977e6dd943123, type: 2}
+  ingameMainPrefab: {fileID: 1000010397757786, guid: 917aa706938d53749a6518d91e0f6d0b,
+    type: 3}
+  gameVersion: 1
+  allWeaponCategories:
+  - Primary
+  - Secondary
+  - Melee
+  - Lethal
+  - NonLethal
+  defaultWeaponsInSlot: 0100000004000000050000000700000006000000
+  allWeapons:
+  - {fileID: 11400000, guid: 900c2e883e439f1459d459014af3090f, type: 2}
+  - {fileID: 11400000, guid: 16b8d1d78a64500488993d5cd05b28d2, type: 2}
+  - {fileID: 11400000, guid: 1a1e6c6a7ee01ff49abcc71e9f3c1be7, type: 2}
+  - {fileID: 11400000, guid: 68e94cf33a825294d8dd533544672171, type: 2}
+  - {fileID: 11400000, guid: 93f26396e8b254d478f9211ef5143aa6, type: 2}
+  - {fileID: 11400000, guid: 70c133fee14adbd45b81daa822042408, type: 2}
+  - {fileID: 11400000, guid: a9fdf8255d18e02479f299759cfb0ee3, type: 2}
+  - {fileID: 11400000, guid: 32577b1534dfec74ea41828f3c1e9339, type: 2}
+  - {fileID: 11400000, guid: c79be11517e20f14aa9a73dcdb5c13ea, type: 2}
+  allAnimatorAnimationSets:
+  - prefix: Rifle
+    type: 0
+  - prefix: Pistol
+    type: 1
+  - prefix: Melee
+    type: 2
+  allSingleplayerGameModes:
+  - {fileID: 11400000, guid: 48c355fc36e10db47bde2111b181c4c4, type: 2}
+  allCoopGameModes:
+  - {fileID: 11400000, guid: 48c355fc36e10db47bde2111b181c4c4, type: 2}
+  allPvpGameModes:
+  - {fileID: 11400000, guid: 4f4797b789a21ca478ab609686f94216, type: 2}
+  - {fileID: 11400000, guid: ed0867ed3cbc6b743973f1c8249da5c7, type: 2}
+  - {fileID: 11400000, guid: 1e9b57d2718b9d3449a01447f6d46e83, type: 2}
+  - {fileID: 11400000, guid: 34834f15a98ef7343843b3294c29b8d7, type: 2}
+  - {fileID: 11400000, guid: e1a01279f7434d340bf66514fc335d03, type: 2}
+  - {fileID: 11400000, guid: 5e0319e7d68ebb84f8790f4602874373, type: 2}
+  allPvpTeams:
+  - {fileID: 11400000, guid: c5947a567f6d402418b9193bb3937b5b, type: 2}
+  - {fileID: 11400000, guid: 1905cf0b8c4171747ac46fbcd9df1f39, type: 2}
+  - {fileID: 11400000, guid: 33db86d81b65e454b827d8bca37b807f, type: 2}
+  pointsPerKill: 100
+  enableTouchscreenInput: 0
+  perspectiveMode: 2
+  defaultPerspective: 1
+  thirdPersonAiming: 0
+  enableDropWeaponOnSceneSpawnedWeapons: 0
+  enableAutoReload: 0
+  debugEnableUnlimitedBullets: 0
+  debugEnableUnlimitedReloads: 0
+  leveling: {fileID: 11400000, guid: 15d162321a1a749498d62c0b2f189f71, type: 2}
+  statistics: {fileID: 11400000, guid: d48c456cb63058f449e450998c1e182f, type: 2}
+  mainCameraOverride: {fileID: 0}
+  plugins: []

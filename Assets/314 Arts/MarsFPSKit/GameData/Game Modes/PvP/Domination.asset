@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258b7f90c71804e40a656bba79b18dfc, type: 3}
+  m_Name: Domination
+  m_EditorClassIdentifier: 
+  networkData: {fileID: 4358288688387045349, guid: 562c11a429ca9d84ca4faae09acc68dd,
+    type: 3}
+  gameModeName: Domination
+  traditionalMaps:
+  - {fileID: 11400000, guid: 7f7c0e2ed4697dd46b3bc62a8250f2f7, type: 2}
+  - {fileID: 11400000, guid: eed4fe366e088cb4a9dfd1ff682049ee, type: 2}
+  - {fileID: 11400000, guid: ef3d27fcaf681114a840332b06bbde32, type: 2}
+  - {fileID: 11400000, guid: fd00df94e64985b48b41a871d55f910d, type: 2}
+  - {fileID: 11400000, guid: ce8f0bb187976c54ab05dc046451ea9e, type: 2}
+  traditionalPlayerLimits: 020406080a
+  traditionalPlayerNeeded: 00000000020000000400000006000000080000000a000000
+  traditionalDurations: 2c01000058020000b0040000
+  traditionalPingLimits: 000000003200000064000000c80000002c010000
+  traditionalAfkLimits: 000000003c00000078000000b4000000f00000002c010000
+  lobbyMaps:
+  - {fileID: 11400000, guid: ce8f0bb187976c54ab05dc046451ea9e, type: 2}
+  - {fileID: 11400000, guid: eed4fe366e088cb4a9dfd1ff682049ee, type: 2}
+  - {fileID: 11400000, guid: ef3d27fcaf681114a840332b06bbde32, type: 2}
+  - {fileID: 11400000, guid: fd00df94e64985b48b41a871d55f910d, type: 2}
+  lobbyMinimumPlayersNeeded: 6
+  lobbyMaximumPlayers: 10
+  lobbyGameDuration: 600
+  lobbyPingLimit: 200
+  lobbyAfkLimit: 120
+  lobbyBotsEnabled: 1
+  lobbyAmountOfMapsToVoteFor: 2
+  lobbyStartWithBotsAfterSeconds: 60
+  hudPrefab: {fileID: 1213412456509170, guid: a67bce7748306b54fb3571ae0e9c99e0, type: 3}
+  spawnSystemToUse: {fileID: 11400000, guid: 7bc5450911303d84c9b0760ee3e2f39a, type: 2}
+  botManagerToUse: {fileID: 11400000, guid: 135db0de77158ff46b28c0a0e1afe7a4, type: 2}
+  botControlOverride: {fileID: 11400000, guid: 81390f12d3274504ca95492a472eeee4, type: 2}
+  isTeamGameMode: 1
+  maximumAmountOfTeams: 2
+  pointLimit: 200
+  pointsPerOwnedFlag: 1
+  tickTime: 5
+  flagCaptureSpeed: 20
+  flagCaptureSpeedPlayerCountMultiplier: 2
+  flagPrefab: {fileID: 1038603068786474, guid: 69c7e7e4bf9be5c4da8e0d2769da0f14, type: 3}
+  flagMaterialNeutral: {fileID: 2100000, guid: 0f30533139466a44c88804148155a597, type: 2}
+  flagMaterialTeams:
+  - {fileID: 2100000, guid: 74c687a69210c48409ae7c28463866f2, type: 2}
+  - {fileID: 2100000, guid: 28e5d9f2c2f71df44bff0df7cff225de, type: 2}
+  - {fileID: 2100000, guid: 412823175078c1e4692957494933d09d, type: 2}
+  hudColorNeutral: {r: 1, g: 1, b: 1, a: 1}
+  hudColorFlagFightedFor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  maxTeamDifference: 2
+  votingThreshold: 30
+  preGameTime: 20
+  endGameTime: 10
+  mapVotingTime: 20
+  teamInitialSpawnLayer: 0100000002000000
+  teamGameplaySpawnLayer: 0000000000000000
+  firstFlagSpawnIndex: 3

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95183122ad2b34d458efb91cab4c0c58, type: 3}
+  m_Name: Deathmatch
+  m_EditorClassIdentifier: 
+  networkData: {fileID: 1503108642179431830, guid: aaab947e889d5d04cb1c010678139178,
+    type: 3}
+  gameModeName: Deathmatch
+  traditionalMaps:
+  - {fileID: 11400000, guid: 7f7c0e2ed4697dd46b3bc62a8250f2f7, type: 2}
+  - {fileID: 11400000, guid: eed4fe366e088cb4a9dfd1ff682049ee, type: 2}
+  - {fileID: 11400000, guid: ce8f0bb187976c54ab05dc046451ea9e, type: 2}
+  - {fileID: 11400000, guid: 0bda4f8ffa283864a88ef762c78c7555, type: 2}
+  traditionalPlayerLimits: 020406080a
+  traditionalPlayerNeeded: 00000000020000000400000006000000080000000a000000
+  traditionalDurations: 2c01000058020000b0040000
+  traditionalPingLimits: 000032006400c8002c01
+  traditionalAfkLimits: 000000003c00000078000000b4000000f00000002c010000
+  lobbyMaps:
+  - {fileID: 11400000, guid: ce8f0bb187976c54ab05dc046451ea9e, type: 2}
+  - {fileID: 11400000, guid: eed4fe366e088cb4a9dfd1ff682049ee, type: 2}
+  - {fileID: 11400000, guid: ef3d27fcaf681114a840332b06bbde32, type: 2}
+  - {fileID: 11400000, guid: fd00df94e64985b48b41a871d55f910d, type: 2}
+  lobbyMinimumPlayersNeeded: 2
+  lobbyMaximumPlayers: 10
+  lobbyGameDuration: 600
+  lobbyPingLimit: 200
+  lobbyAfkLimit: 120
+  lobbyBotsEnabled: 1
+  lobbyAmountOfMapsToVoteFor: 2
+  lobbyStartWithBotsAfterSeconds: 30
+  hudPrefab: {fileID: 1702067299431274, guid: 92b0dc12873ae124da1c4f1e6f82a687, type: 3}
+  spawnSystemToUse: {fileID: 11400000, guid: 7bc5450911303d84c9b0760ee3e2f39a, type: 2}
+  botManagerToUse: {fileID: 11400000, guid: 135db0de77158ff46b28c0a0e1afe7a4, type: 2}
+  botControlOverride: {fileID: 0}
+  isTeamGameMode: 0
+  maximumAmountOfTeams: 2
+  killLimit: 30
+  winnerCheckTime: 1
+  votingThreshold: 30
+  preGameTime: 20
+  endGameTime: 10
+  mapVotingTime: 20

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8325cd3a8f29c4c9d1c47e76fd5df0, type: 3}
+  m_Name: Flashbang
+  m_EditorClassIdentifier: 
+  weaponName: Flashbang
+  weaponPicture: {fileID: 21300000, guid: be1fa8a624a3b784cb93044b38ad2c09, type: 3}
+  weaponHudPicture: {fileID: 21300000, guid: 369d0a2a87838f340abeb67bc1de6c70, type: 3}
+  weaponQuickUsePicture: {fileID: 21300000, guid: 7bbcf64e87bceca40ba21a0fd163bef9,
+    type: 3}
+  weaponKillfeedImage: {fileID: 0}
+  weaponType: NonLethal
+  weaponLoadoutSubCategory: Grenade
+  canFitIntoSlots: 04000000
+  levelToUnlockAt: -1
+  unlockImage: {fileID: 21300000, guid: be1fa8a624a3b784cb93044b38ad2c09, type: 3}
+  firstPersonPrefab: {fileID: 1267244149178768, guid: f09502dbd0b80e04fb84d67c8da33f22,
+    type: 3}
+  thirdPersonPrefab: {fileID: 1160151806418990, guid: cc5f1466cd0b8e54bb65a9d4fb2f6664,
+    type: 3}
+  dropPrefab: {fileID: 1804399810770364, guid: 0fd9dd391dd05bf469f8534585b36947, type: 3}
+  runtimeDataPrefab: {fileID: 2561252005214513375, guid: 822204d03d85f8645b3fd32a822d24ef,
+    type: 3}
+  thirdPersonAnimType: Melee
+  drawTime: 0.5
+  putawayTime: 0.5
+  deathSoundCategory: 3
+  springPosConfig:
+    stiffness: {x: 0.1, y: 0.1, z: 0.1}
+    damping: {x: 0.3, y: 0.3, z: 0.3}
+    lerpSpeed: 20
+  springRotConfig:
+    stiffness: {x: 0.1, y: 0.1, z: 0.1}
+    damping: {x: 0.3, y: 0.3, z: 0.3}
+    lerpSpeed: 20
+  grenadeMode: 2
+  amountOfGrenadesAtStart: 3
+  pullPinTime: 0.9
+  throwTime: 0.667
+  redrawTime: 0.5
+  quickUsePullPinTime: 0.767
+  quickUseThrowTime: 0.767
+  throwForce: {x: 0, y: 0, z: 1000}
+  throwTorque: {x: 360, y: 360, z: 360}
+  grenadePrefab: {fileID: 1686418777090264, guid: 019b77f76fe4b25448b99f1427e3b0f6,
+    type: 3}
+  drawSound: {fileID: 0}
+  putawaySound: {fileID: 0}
+  pullPinSound: {fileID: 0}
+  throwSound: {fileID: 8300000, guid: 2b997e451176e9e478cc6d09a4802954, type: 3}
+  pullPinQuickSound: {fileID: 0}
+  throwQuickSound: {fileID: 8300000, guid: 2b997e451176e9e478cc6d09a4802954, type: 3}
+  thirdPersonRange: 30
+  thirdPersonRolloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  voiceGrenadeSoundID: 1
+  weaponDelayBaseAmount: 30
+  weaponDelayMaxAmount: 0.02
+  weaponDelayAimingMultiplier: 0.3
+  weaponDelaySmooth: 3
+  weaponTiltEnabled: 1
+  weaponTiltIntensity: 5
+  weaponTiltReturnSpeed: 3
+  fallDownAmount: 10
+  fallDownMinOffset: -6
+  fallDownMaxoffset: 6
+  fallDownTime: 0.1
+  fallDownReturnSpeed: 1
+  genericGunAnimatorControllerPrefab: {fileID: 1896438800841234, guid: 32d35967d844b94479b79cb464e4bea5,
+    type: 3}
+  useGenericWalkAnim: 1
+  useGenericRunAnim: 0

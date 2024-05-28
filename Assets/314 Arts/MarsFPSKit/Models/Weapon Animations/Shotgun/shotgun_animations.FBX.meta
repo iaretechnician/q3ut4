@@ -1,0 +1,1291 @@
+fileFormatVersion: 2
+guid: 3b01827d79f56fd4eb8328031a69068c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera001
+    100002: Camera001.Target
+    100004: Extractor_Bone
+    100006: First PersonArms_Mesh001
+    100008: FP_Rig
+    100010: FP_RigBase_Spine
+    100012: FP_RigLArmCollarbone
+    100014: FP_RigLArmIKTarget
+    100016: FP_RigLArmIndex1
+    100018: FP_RigLArmIndex2
+    100020: FP_RigLArmIndex3
+    100022: FP_RigLArmLower1
+    100024: FP_RigLArmLower2
+    100026: FP_RigLArmLower3
+    100028: FP_RigLArmMidle1
+    100030: FP_RigLArmMidle2
+    100032: FP_RigLArmMidle3
+    100034: FP_RigLArmPalm
+    100036: FP_RigLArmPinky1
+    100038: FP_RigLArmPinky2
+    100040: FP_RigLArmPinky3
+    100042: FP_RigLArmRing1
+    100044: FP_RigLArmRing2
+    100046: FP_RigLArmRing3
+    100048: FP_RigLArmThumb1
+    100050: FP_RigLArmThumb2
+    100052: FP_RigLArmThumb3
+    100054: FP_RigLArmUpper
+    100056: FP_RigLArmUpVectorNode
+    100058: FP_RigRArmCollarbone
+    100060: FP_RigRArmIKTarget
+    100062: FP_RigRArmIndex1
+    100064: FP_RigRArmIndex2
+    100066: FP_RigRArmIndex3
+    100068: FP_RigRArmLower1
+    100070: FP_RigRArmLower2
+    100072: FP_RigRArmLower3
+    100074: FP_RigRArmMidle1
+    100076: FP_RigRArmMidle2
+    100078: FP_RigRArmMidle3
+    100080: FP_RigRArmPalm
+    100082: FP_RigRArmPinky1
+    100084: FP_RigRArmPinky2
+    100086: FP_RigRArmPinky3
+    100088: FP_RigRArmRing1
+    100090: FP_RigRArmRing2
+    100092: FP_RigRArmRing3
+    100094: FP_RigRArmThumb1
+    100096: FP_RigRArmThumb2
+    100098: FP_RigRArmThumb3
+    100100: FP_RigRArmUpper
+    100102: FP_RigRArmUpVectorNode
+    100104: Handle_Bone
+    100106: Left Controller
+    100108: Main_Bone
+    100110: Plane004
+    100112: Point003
+    100114: Point004
+    100116: Point005
+    100118: Right Controller
+    100120: Shell_Bone
+    100122: //RootNode
+    400000: Camera001
+    400002: Camera001.Target
+    400004: Extractor_Bone
+    400006: First PersonArms_Mesh001
+    400008: FP_Rig
+    400010: FP_RigBase_Spine
+    400012: FP_RigLArmCollarbone
+    400014: FP_RigLArmIKTarget
+    400016: FP_RigLArmIndex1
+    400018: FP_RigLArmIndex2
+    400020: FP_RigLArmIndex3
+    400022: FP_RigLArmLower1
+    400024: FP_RigLArmLower2
+    400026: FP_RigLArmLower3
+    400028: FP_RigLArmMidle1
+    400030: FP_RigLArmMidle2
+    400032: FP_RigLArmMidle3
+    400034: FP_RigLArmPalm
+    400036: FP_RigLArmPinky1
+    400038: FP_RigLArmPinky2
+    400040: FP_RigLArmPinky3
+    400042: FP_RigLArmRing1
+    400044: FP_RigLArmRing2
+    400046: FP_RigLArmRing3
+    400048: FP_RigLArmThumb1
+    400050: FP_RigLArmThumb2
+    400052: FP_RigLArmThumb3
+    400054: FP_RigLArmUpper
+    400056: FP_RigLArmUpVectorNode
+    400058: FP_RigRArmCollarbone
+    400060: FP_RigRArmIKTarget
+    400062: FP_RigRArmIndex1
+    400064: FP_RigRArmIndex2
+    400066: FP_RigRArmIndex3
+    400068: FP_RigRArmLower1
+    400070: FP_RigRArmLower2
+    400072: FP_RigRArmLower3
+    400074: FP_RigRArmMidle1
+    400076: FP_RigRArmMidle2
+    400078: FP_RigRArmMidle3
+    400080: FP_RigRArmPalm
+    400082: FP_RigRArmPinky1
+    400084: FP_RigRArmPinky2
+    400086: FP_RigRArmPinky3
+    400088: FP_RigRArmRing1
+    400090: FP_RigRArmRing2
+    400092: FP_RigRArmRing3
+    400094: FP_RigRArmThumb1
+    400096: FP_RigRArmThumb2
+    400098: FP_RigRArmThumb3
+    400100: FP_RigRArmUpper
+    400102: FP_RigRArmUpVectorNode
+    400104: Handle_Bone
+    400106: Left Controller
+    400108: Main_Bone
+    400110: Plane004
+    400112: Point003
+    400114: Point004
+    400116: Point005
+    400118: Right Controller
+    400120: Shell_Bone
+    400122: //RootNode
+    4300000: First PersonArms_Mesh001
+    4300002: Plane004
+    7400000: Fire
+    7400002: Putaway
+    7400004: Draw
+    7400006: Reload Start
+    7400008: Reload Insert
+    7400010: Reload End
+    7400012: Idle
+    9500000: //RootNode
+    13700000: First PersonArms_Mesh001
+    13700002: Plane004
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fire
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: First PersonArms_Mesh001
+        weight: 1
+      - path: FP_Rig
+        weight: 1
+      - path: FP_RigBase_Spine
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2/FP_RigLArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2/FP_RigLArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2/FP_RigLArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2/FP_RigLArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2/FP_RigLArmThumb3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2/FP_RigRArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2/FP_RigRArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2/FP_RigRArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2/FP_RigRArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2/FP_RigRArmThumb3
+        weight: 1
+      - path: FP_RigLArmIKTarget
+        weight: 1
+      - path: FP_RigLArmUpVectorNode
+        weight: 1
+      - path: FP_RigRArmIKTarget
+        weight: 1
+      - path: FP_RigRArmUpVectorNode
+        weight: 1
+      - path: Left Controller
+        weight: 1
+      - path: Main_Bone
+        weight: 1
+      - path: Main_Bone/Extractor_Bone
+        weight: 1
+      - path: Main_Bone/Handle_Bone
+        weight: 1
+      - path: Main_Bone/Point003
+        weight: 1
+      - path: Main_Bone/Shell_Bone
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Point004
+        weight: 1
+      - path: Point005
+        weight: 1
+      - path: Right Controller
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Putaway
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: First PersonArms_Mesh001
+        weight: 1
+      - path: FP_Rig
+        weight: 1
+      - path: FP_RigBase_Spine
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2/FP_RigLArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2/FP_RigLArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2/FP_RigLArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2/FP_RigLArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2/FP_RigLArmThumb3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2/FP_RigRArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2/FP_RigRArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2/FP_RigRArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2/FP_RigRArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2/FP_RigRArmThumb3
+        weight: 1
+      - path: FP_RigLArmIKTarget
+        weight: 1
+      - path: FP_RigLArmUpVectorNode
+        weight: 1
+      - path: FP_RigRArmIKTarget
+        weight: 1
+      - path: FP_RigRArmUpVectorNode
+        weight: 1
+      - path: Left Controller
+        weight: 1
+      - path: Main_Bone
+        weight: 1
+      - path: Main_Bone/Extractor_Bone
+        weight: 1
+      - path: Main_Bone/Handle_Bone
+        weight: 1
+      - path: Main_Bone/Point003
+        weight: 1
+      - path: Main_Bone/Shell_Bone
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Point004
+        weight: 1
+      - path: Point005
+        weight: 1
+      - path: Right Controller
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Draw
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: First PersonArms_Mesh001
+        weight: 1
+      - path: FP_Rig
+        weight: 1
+      - path: FP_RigBase_Spine
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2/FP_RigLArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2/FP_RigLArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2/FP_RigLArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2/FP_RigLArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2/FP_RigLArmThumb3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2/FP_RigRArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2/FP_RigRArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2/FP_RigRArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2/FP_RigRArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2/FP_RigRArmThumb3
+        weight: 1
+      - path: FP_RigLArmIKTarget
+        weight: 1
+      - path: FP_RigLArmUpVectorNode
+        weight: 1
+      - path: FP_RigRArmIKTarget
+        weight: 1
+      - path: FP_RigRArmUpVectorNode
+        weight: 1
+      - path: Left Controller
+        weight: 1
+      - path: Main_Bone
+        weight: 1
+      - path: Main_Bone/Extractor_Bone
+        weight: 1
+      - path: Main_Bone/Handle_Bone
+        weight: 1
+      - path: Main_Bone/Point003
+        weight: 1
+      - path: Main_Bone/Shell_Bone
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Point004
+        weight: 1
+      - path: Point005
+        weight: 1
+      - path: Right Controller
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload Start
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: First PersonArms_Mesh001
+        weight: 1
+      - path: FP_Rig
+        weight: 1
+      - path: FP_RigBase_Spine
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2/FP_RigLArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2/FP_RigLArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2/FP_RigLArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2/FP_RigLArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2/FP_RigLArmThumb3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2/FP_RigRArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2/FP_RigRArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2/FP_RigRArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2/FP_RigRArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2/FP_RigRArmThumb3
+        weight: 1
+      - path: FP_RigLArmIKTarget
+        weight: 1
+      - path: FP_RigLArmUpVectorNode
+        weight: 1
+      - path: FP_RigRArmIKTarget
+        weight: 1
+      - path: FP_RigRArmUpVectorNode
+        weight: 1
+      - path: Left Controller
+        weight: 1
+      - path: Main_Bone
+        weight: 1
+      - path: Main_Bone/Extractor_Bone
+        weight: 1
+      - path: Main_Bone/Handle_Bone
+        weight: 1
+      - path: Main_Bone/Point003
+        weight: 1
+      - path: Main_Bone/Shell_Bone
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Point004
+        weight: 1
+      - path: Point005
+        weight: 1
+      - path: Right Controller
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload Insert
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: First PersonArms_Mesh001
+        weight: 1
+      - path: FP_Rig
+        weight: 1
+      - path: FP_RigBase_Spine
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2/FP_RigLArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2/FP_RigLArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2/FP_RigLArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2/FP_RigLArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2/FP_RigLArmThumb3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2/FP_RigRArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2/FP_RigRArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2/FP_RigRArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2/FP_RigRArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2/FP_RigRArmThumb3
+        weight: 1
+      - path: FP_RigLArmIKTarget
+        weight: 1
+      - path: FP_RigLArmUpVectorNode
+        weight: 1
+      - path: FP_RigRArmIKTarget
+        weight: 1
+      - path: FP_RigRArmUpVectorNode
+        weight: 1
+      - path: Left Controller
+        weight: 1
+      - path: Main_Bone
+        weight: 1
+      - path: Main_Bone/Extractor_Bone
+        weight: 1
+      - path: Main_Bone/Handle_Bone
+        weight: 1
+      - path: Main_Bone/Point003
+        weight: 1
+      - path: Main_Bone/Shell_Bone
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Point004
+        weight: 1
+      - path: Point005
+        weight: 1
+      - path: Right Controller
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload End
+      takeName: Take 001
+      firstFrame: 155
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: First PersonArms_Mesh001
+        weight: 1
+      - path: FP_Rig
+        weight: 1
+      - path: FP_RigBase_Spine
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2/FP_RigLArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2/FP_RigLArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2/FP_RigLArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2/FP_RigLArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2/FP_RigLArmThumb3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2/FP_RigRArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2/FP_RigRArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2/FP_RigRArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2/FP_RigRArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2/FP_RigRArmThumb3
+        weight: 1
+      - path: FP_RigLArmIKTarget
+        weight: 1
+      - path: FP_RigLArmUpVectorNode
+        weight: 1
+      - path: FP_RigRArmIKTarget
+        weight: 1
+      - path: FP_RigRArmUpVectorNode
+        weight: 1
+      - path: Left Controller
+        weight: 1
+      - path: Main_Bone
+        weight: 1
+      - path: Main_Bone/Extractor_Bone
+        weight: 1
+      - path: Main_Bone/Handle_Bone
+        weight: 1
+      - path: Main_Bone/Point003
+        weight: 1
+      - path: Main_Bone/Shell_Bone
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Point004
+        weight: 1
+      - path: Point005
+        weight: 1
+      - path: Right Controller
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 94
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: First PersonArms_Mesh001
+        weight: 1
+      - path: FP_Rig
+        weight: 1
+      - path: FP_RigBase_Spine
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmIndex1/FP_RigLArmIndex2/FP_RigLArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmMidle1/FP_RigLArmMidle2/FP_RigLArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmPinky1/FP_RigLArmPinky2/FP_RigLArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmRing1/FP_RigLArmRing2/FP_RigLArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigLArmCollarbone/FP_RigLArmUpper/FP_RigLArmLower1/FP_RigLArmLower2/FP_RigLArmLower3/FP_RigLArmPalm/FP_RigLArmThumb1/FP_RigLArmThumb2/FP_RigLArmThumb3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmIndex1/FP_RigRArmIndex2/FP_RigRArmIndex3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmMidle1/FP_RigRArmMidle2/FP_RigRArmMidle3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmPinky1/FP_RigRArmPinky2/FP_RigRArmPinky3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmRing1/FP_RigRArmRing2/FP_RigRArmRing3
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2
+        weight: 1
+      - path: FP_RigBase_Spine/FP_RigRArmCollarbone/FP_RigRArmUpper/FP_RigRArmLower1/FP_RigRArmLower2/FP_RigRArmLower3/FP_RigRArmPalm/FP_RigRArmThumb1/FP_RigRArmThumb2/FP_RigRArmThumb3
+        weight: 1
+      - path: FP_RigLArmIKTarget
+        weight: 1
+      - path: FP_RigLArmUpVectorNode
+        weight: 1
+      - path: FP_RigRArmIKTarget
+        weight: 1
+      - path: FP_RigRArmUpVectorNode
+        weight: 1
+      - path: Left Controller
+        weight: 1
+      - path: Main_Bone
+        weight: 1
+      - path: Main_Bone/Extractor_Bone
+        weight: 1
+      - path: Main_Bone/Handle_Bone
+        weight: 1
+      - path: Main_Bone/Point003
+        weight: 1
+      - path: Main_Bone/Shell_Bone
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Point004
+        weight: 1
+      - path: Point005
+        weight: 1
+      - path: Right Controller
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

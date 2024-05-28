@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2f68d8af8e1988d47a5f31f05952250b
+timeCreated: 1532620649
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ammoPrefab: {fileID: 1893403684373534, guid: b0f59db88820c1f41a336a8018a5565d,
+      type: 2}
+  - currentlySpawnedAmmo: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

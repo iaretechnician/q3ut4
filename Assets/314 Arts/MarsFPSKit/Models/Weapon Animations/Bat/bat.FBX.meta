@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: acaf24ce5800a9d42bae638a5385f2db
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BatsPaint_initialShadingGroup1
+    100004: Camera001
+    100006: Camera001.Target
+    100008: Dummy001
+    100010: Dummy002
+    100012: First PersonArms_Mesh
+    100014: FP_Rig
+    100016: FP_RigBase_Spine
+    100018: FP_RigLArmCollarbone
+    100020: FP_RigLArmIKTarget
+    100022: FP_RigLArmIndex1
+    100024: FP_RigLArmIndex2
+    100026: FP_RigLArmIndex3
+    100028: FP_RigLArmLower1
+    100030: FP_RigLArmLower2
+    100032: FP_RigLArmLower3
+    100034: FP_RigLArmMidle1
+    100036: FP_RigLArmMidle2
+    100038: FP_RigLArmMidle3
+    100040: FP_RigLArmPalm
+    100042: FP_RigLArmPinky1
+    100044: FP_RigLArmPinky2
+    100046: FP_RigLArmPinky3
+    100048: FP_RigLArmRing1
+    100050: FP_RigLArmRing2
+    100052: FP_RigLArmRing3
+    100054: FP_RigLArmThumb1
+    100056: FP_RigLArmThumb2
+    100058: FP_RigLArmThumb3
+    100060: FP_RigLArmUpper
+    100062: FP_RigLArmUpVectorNode
+    100064: FP_RigRArmCollarbone
+    100066: FP_RigRArmIKTarget
+    100068: FP_RigRArmIndex1
+    100070: FP_RigRArmIndex2
+    100072: FP_RigRArmIndex3
+    100074: FP_RigRArmLower1
+    100076: FP_RigRArmLower2
+    100078: FP_RigRArmLower3
+    100080: FP_RigRArmMidle1
+    100082: FP_RigRArmMidle2
+    100084: FP_RigRArmMidle3
+    100086: FP_RigRArmPalm
+    100088: FP_RigRArmPinky1
+    100090: FP_RigRArmPinky2
+    100092: FP_RigRArmPinky3
+    100094: FP_RigRArmRing1
+    100096: FP_RigRArmRing2
+    100098: FP_RigRArmRing3
+    100100: FP_RigRArmThumb1
+    100102: FP_RigRArmThumb2
+    100104: FP_RigRArmThumb3
+    100106: FP_RigRArmUpper
+    100108: FP_RigRArmUpVectorNode
+    100110: Left Controller
+    100112: Right Controller
+    400000: //RootNode
+    400002: BatsPaint_initialShadingGroup1
+    400004: Camera001
+    400006: Camera001.Target
+    400008: Dummy001
+    400010: Dummy002
+    400012: First PersonArms_Mesh
+    400014: FP_Rig
+    400016: FP_RigBase_Spine
+    400018: FP_RigLArmCollarbone
+    400020: FP_RigLArmIKTarget
+    400022: FP_RigLArmIndex1
+    400024: FP_RigLArmIndex2
+    400026: FP_RigLArmIndex3
+    400028: FP_RigLArmLower1
+    400030: FP_RigLArmLower2
+    400032: FP_RigLArmLower3
+    400034: FP_RigLArmMidle1
+    400036: FP_RigLArmMidle2
+    400038: FP_RigLArmMidle3
+    400040: FP_RigLArmPalm
+    400042: FP_RigLArmPinky1
+    400044: FP_RigLArmPinky2
+    400046: FP_RigLArmPinky3
+    400048: FP_RigLArmRing1
+    400050: FP_RigLArmRing2
+    400052: FP_RigLArmRing3
+    400054: FP_RigLArmThumb1
+    400056: FP_RigLArmThumb2
+    400058: FP_RigLArmThumb3
+    400060: FP_RigLArmUpper
+    400062: FP_RigLArmUpVectorNode
+    400064: FP_RigRArmCollarbone
+    400066: FP_RigRArmIKTarget
+    400068: FP_RigRArmIndex1
+    400070: FP_RigRArmIndex2
+    400072: FP_RigRArmIndex3
+    400074: FP_RigRArmLower1
+    400076: FP_RigRArmLower2
+    400078: FP_RigRArmLower3
+    400080: FP_RigRArmMidle1
+    400082: FP_RigRArmMidle2
+    400084: FP_RigRArmMidle3
+    400086: FP_RigRArmPalm
+    400088: FP_RigRArmPinky1
+    400090: FP_RigRArmPinky2
+    400092: FP_RigRArmPinky3
+    400094: FP_RigRArmRing1
+    400096: FP_RigRArmRing2
+    400098: FP_RigRArmRing3
+    400100: FP_RigRArmThumb1
+    400102: FP_RigRArmThumb2
+    400104: FP_RigRArmThumb3
+    400106: FP_RigRArmUpper
+    400108: FP_RigRArmUpVectorNode
+    400110: Left Controller
+    400112: Right Controller
+    2000000: Camera001
+    2300000: BatsPaint_initialShadingGroup1
+    3300000: BatsPaint_initialShadingGroup1
+    4300000: First PersonArms_Mesh
+    4300002: BatsPaint_initialShadingGroup1
+    7400000: idle
+    9500000: //RootNode
+    13700000: First PersonArms_Mesh
+    6000828045688606266: Camera001
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

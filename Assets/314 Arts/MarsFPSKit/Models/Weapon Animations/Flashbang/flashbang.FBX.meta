@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 8bb06ead5e8f842469306f1b15616483
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera001
+    100002: Camera001.Target
+    100004: Cylinder010
+    100006: Dummy001
+    100008: First PersonArms_Mesh
+    100010: //RootNode
+    100012: FP_Rig
+    100014: FP_RigBase_Spine
+    100016: FP_RigLArmCollarbone
+    100018: FP_RigLArmIKTarget
+    100020: FP_RigLArmIndex1
+    100022: FP_RigLArmIndex2
+    100024: FP_RigLArmIndex3
+    100026: FP_RigLArmLower1
+    100028: FP_RigLArmLower2
+    100030: FP_RigLArmLower3
+    100032: FP_RigLArmMidle1
+    100034: FP_RigLArmMidle2
+    100036: FP_RigLArmMidle3
+    100038: FP_RigLArmPalm
+    100040: FP_RigLArmPinky1
+    100042: FP_RigLArmPinky2
+    100044: FP_RigLArmPinky3
+    100046: FP_RigLArmRing1
+    100048: FP_RigLArmRing2
+    100050: FP_RigLArmRing3
+    100052: FP_RigLArmThumb1
+    100054: FP_RigLArmThumb2
+    100056: FP_RigLArmThumb3
+    100058: FP_RigLArmUpper
+    100060: FP_RigLArmUpVectorNode
+    100062: FP_RigRArmCollarbone
+    100064: FP_RigRArmIKTarget
+    100066: FP_RigRArmIndex1
+    100068: FP_RigRArmIndex2
+    100070: FP_RigRArmIndex3
+    100072: FP_RigRArmLower1
+    100074: FP_RigRArmLower2
+    100076: FP_RigRArmLower3
+    100078: FP_RigRArmMidle1
+    100080: FP_RigRArmMidle2
+    100082: FP_RigRArmMidle3
+    100084: FP_RigRArmPalm
+    100086: FP_RigRArmPinky1
+    100088: FP_RigRArmPinky2
+    100090: FP_RigRArmPinky3
+    100092: FP_RigRArmRing1
+    100094: FP_RigRArmRing2
+    100096: FP_RigRArmRing3
+    100098: FP_RigRArmThumb1
+    100100: FP_RigRArmThumb2
+    100102: FP_RigRArmThumb3
+    100104: FP_RigRArmUpper
+    100106: FP_RigRArmUpVectorNode
+    100108: Left Controller
+    100110: pin_2
+    100112: pin_3
+    100114: pin_4
+    100116: Right Controller
+    400000: Camera001
+    400002: Camera001.Target
+    400004: Cylinder010
+    400006: Dummy001
+    400008: First PersonArms_Mesh
+    400010: //RootNode
+    400012: FP_Rig
+    400014: FP_RigBase_Spine
+    400016: FP_RigLArmCollarbone
+    400018: FP_RigLArmIKTarget
+    400020: FP_RigLArmIndex1
+    400022: FP_RigLArmIndex2
+    400024: FP_RigLArmIndex3
+    400026: FP_RigLArmLower1
+    400028: FP_RigLArmLower2
+    400030: FP_RigLArmLower3
+    400032: FP_RigLArmMidle1
+    400034: FP_RigLArmMidle2
+    400036: FP_RigLArmMidle3
+    400038: FP_RigLArmPalm
+    400040: FP_RigLArmPinky1
+    400042: FP_RigLArmPinky2
+    400044: FP_RigLArmPinky3
+    400046: FP_RigLArmRing1
+    400048: FP_RigLArmRing2
+    400050: FP_RigLArmRing3
+    400052: FP_RigLArmThumb1
+    400054: FP_RigLArmThumb2
+    400056: FP_RigLArmThumb3
+    400058: FP_RigLArmUpper
+    400060: FP_RigLArmUpVectorNode
+    400062: FP_RigRArmCollarbone
+    400064: FP_RigRArmIKTarget
+    400066: FP_RigRArmIndex1
+    400068: FP_RigRArmIndex2
+    400070: FP_RigRArmIndex3
+    400072: FP_RigRArmLower1
+    400074: FP_RigRArmLower2
+    400076: FP_RigRArmLower3
+    400078: FP_RigRArmMidle1
+    400080: FP_RigRArmMidle2
+    400082: FP_RigRArmMidle3
+    400084: FP_RigRArmPalm
+    400086: FP_RigRArmPinky1
+    400088: FP_RigRArmPinky2
+    400090: FP_RigRArmPinky3
+    400092: FP_RigRArmRing1
+    400094: FP_RigRArmRing2
+    400096: FP_RigRArmRing3
+    400098: FP_RigRArmThumb1
+    400100: FP_RigRArmThumb2
+    400102: FP_RigRArmThumb3
+    400104: FP_RigRArmUpper
+    400106: FP_RigRArmUpVectorNode
+    400108: Left Controller
+    400110: pin_2
+    400112: pin_3
+    400114: pin_4
+    400116: Right Controller
+    2000000: Camera001
+    2300000: Cylinder010
+    2300002: pin_2
+    2300004: pin_3
+    2300006: pin_4
+    3300000: Cylinder010
+    3300002: pin_2
+    3300004: pin_3
+    3300006: pin_4
+    4300000: First PersonArms_Mesh
+    4300002: Cylinder010
+    4300004: pin_2
+    4300006: pin_3
+    4300008: pin_4
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: First PersonArms_Mesh
+    6000828045688606266: Camera001
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

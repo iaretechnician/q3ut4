@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 31f28608d1f8fa5459218cbaa0fb21f7
+timeCreated: 1532508975
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - main: {instanceID: 0}
+  - dropPrefab: {fileID: 1168763242038898, guid: cdb7ff000b9c70849929e2222b4210bc,
+      type: 2}
+  - currentlySpawnedWeapon: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

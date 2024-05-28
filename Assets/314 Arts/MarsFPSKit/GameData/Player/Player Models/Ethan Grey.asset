@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7b11508b2bc624bb248dd187943743, type: 3}
+  m_Name: Ethan Grey
+  m_EditorClassIdentifier: 
+  displayName: Ethan without color
+  prefab: {fileID: 1752544057616114, guid: 771dbf661dd7c0f419d4650e716a765a, type: 3}
+  voices:
+  - {fileID: 11400000, guid: 1d8236ae17efc22438c85c1d4a58848f, type: 2}
+  killFeedConfig:
+  - idAtWhichToAppear: 6
+    toShow: {fileID: 21300000, guid: d5682adbc61c91e45b224553540f816d, type: 3}

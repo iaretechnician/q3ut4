@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86231388bf7233d42844362e55dd829a, type: 3}
+  m_Name: Bat
+  m_EditorClassIdentifier: 
+  weaponName: Bat
+  weaponPicture: {fileID: 21300000, guid: 5f854482aabde154c8d48e277c5bcb3f, type: 3}
+  weaponHudPicture: {fileID: 21300000, guid: 5f854482aabde154c8d48e277c5bcb3f, type: 3}
+  weaponQuickUsePicture: {fileID: 21300000, guid: 2b1eafbd997e7fa409ba19737fdd88c1,
+    type: 3}
+  weaponKillfeedImage: {fileID: 0}
+  weaponType: Melee
+  weaponLoadoutSubCategory: Blunt
+  canFitIntoSlots: 02000000
+  levelToUnlockAt: -1
+  unlockImage: {fileID: 21300000, guid: 5f854482aabde154c8d48e277c5bcb3f, type: 3}
+  firstPersonPrefab: {fileID: 1247296511376434, guid: 51d4e45f2f3a8f242ab4e103282f0ea2,
+    type: 3}
+  thirdPersonPrefab: {fileID: 1655673774505752, guid: 04fd4a9de31b01c4ba90710a9425997c,
+    type: 3}
+  dropPrefab: {fileID: 1902981545099552, guid: a18f3fc6a801a1d46aa4324d767d7c24, type: 3}
+  runtimeDataPrefab: {fileID: 6877055967000754992, guid: 85e59fe7634a93548af44f4ea0e0c21b,
+    type: 3}
+  thirdPersonAnimType: Melee
+  drawTime: 0.5
+  putawayTime: 0.5
+  deathSoundCategory: 4
+  springPosConfig:
+    stiffness: {x: 0.1, y: 0.1, z: 0.1}
+    damping: {x: 0.3, y: 0.3, z: 0.3}
+    lerpSpeed: 20
+  springRotConfig:
+    stiffness: {x: 0.1, y: 0.1, z: 0.1}
+    damping: {x: 0.3, y: 0.3, z: 0.3}
+    lerpSpeed: 20
+  primaryAttack: 0
+  primaryAttackSettings:
+    stabDamage: 50
+    stabPenetrationPower: 2
+    stabReach: 2
+    stabHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    stabRagdollForce: 15000
+    stabWindupAnimationName: Stab Windup
+    stabWindupSound: {fileID: 0}
+    stabWindupTime: 0.833
+    stabAnimationHitName: Stab Hit
+    stabHitSound: {fileID: 0}
+    stabHitTime: 1
+    stabAnimationHitObjectName: Stab Hit
+    stabHitObjectSound: {fileID: 0}
+    stabHitObjectTime: 1
+    stabAnimationMissName: Stab Hit
+    stabMissSound: {fileID: 0}
+    stabMissTime: 1
+    chargeDamageStart: 10
+    chargeDamageCharged: 90
+    chargePenetrationPower: 2
+    chargeReach: 2
+    chargeHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    chargeRagdollForce: 500
+    chargeChargeAnimation: Charge
+    chargeChargeSound: {fileID: 0}
+    chargeChargeTime: 0.967
+    chargeWindupAnimationName: Charge Windup
+    chargeWindupSound: {fileID: 0}
+    chargeWindupTime: 0.2
+    chargeAnimationHitName: Charge Hit
+    chargeHitSound: {fileID: 0}
+    chargeHitTime: 1.167
+    chargeAnimationHitObjectName: Charge Hit
+    chargeHitObjectSound: {fileID: 0}
+    chargeHitObjectTime: 1.167
+    chargeAnimationMissName: Charge Hit
+    chargeMissSound: {fileID: 0}
+    chargeMissTime: 1.167
+    healTimeOne: 0.5
+    healTimeTwo: 0.5
+    healAmount: 5
+    healStartAmount: 2
+    healAnimationName: Heal
+    healSound: {fileID: 0}
+    combos:
+    - comboTimeForNextCombo: 1
+      canAchieveNextComboOnMiss: 1
+      canAchieveNextComboOnHit: 1
+      canAchieveNextComboOnHitObject: 1
+      comboDamage: 50
+      comboPenetrationPower: 2
+      comboReach: 2
+      comboHalfExtents: {x: 0.1, y: 0.1, z: 1}
+      comboRagdollForce: 500
+      comboWindupAnimationName: Stab Windup
+      comboWindupSound: {fileID: 0}
+      comboWindupTime: 0.833
+      comboAnimationHitName: Stab Hit
+      comboHitSound: {fileID: 0}
+      comboHitTime: 0
+      comboAnimationHitObjectName: Stab Hit
+      comboHitObjectSound: {fileID: 0}
+      comboHitObjectTime: 0
+      comboAnimationMissName: Stab Hit
+      comboMissSound: {fileID: 0}
+      comboMissTime: 0
+    - comboTimeForNextCombo: 3
+      canAchieveNextComboOnMiss: 1
+      canAchieveNextComboOnHit: 1
+      canAchieveNextComboOnHitObject: 1
+      comboDamage: 50
+      comboPenetrationPower: 2
+      comboReach: 2
+      comboHalfExtents: {x: 0.1, y: 0.1, z: 1}
+      comboRagdollForce: 500
+      comboWindupAnimationName: Charge
+      comboWindupSound: {fileID: 0}
+      comboWindupTime: 0.967
+      comboAnimationHitName: Charge Hit
+      comboHitSound: {fileID: 0}
+      comboHitTime: 1.167
+      comboAnimationHitObjectName: Charge Hit
+      comboHitObjectSound: {fileID: 0}
+      comboHitObjectTime: 1.167
+      comboAnimationMissName: Charge Hit
+      comboMissSound: {fileID: 0}
+      comboMissTime: 1.167
+  secondaryAttack: 1
+  secondaryAttackSettings:
+    stabDamage: 50
+    stabPenetrationPower: 2
+    stabReach: 2
+    stabHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    stabRagdollForce: 500
+    stabWindupAnimationName: Stab Windup
+    stabWindupSound: {fileID: 0}
+    stabWindupTime: 0.3
+    stabAnimationHitName: Stab Hit
+    stabHitSound: {fileID: 0}
+    stabHitTime: 0.5
+    stabAnimationHitObjectName: Stab Hit Object
+    stabHitObjectSound: {fileID: 0}
+    stabHitObjectTime: 0.5
+    stabAnimationMissName: Stab Miss
+    stabMissSound: {fileID: 0}
+    stabMissTime: 0.5
+    chargeDamageStart: 10
+    chargeDamageCharged: 90
+    chargePenetrationPower: 2
+    chargeReach: 2
+    chargeHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    chargeRagdollForce: 500
+    chargeChargeAnimation: Charge
+    chargeChargeSound: {fileID: 0}
+    chargeChargeTime: 0.967
+    chargeWindupAnimationName: Charge Windup
+    chargeWindupSound: {fileID: 0}
+    chargeWindupTime: 0.2
+    chargeAnimationHitName: Charge Hit
+    chargeHitSound: {fileID: 0}
+    chargeHitTime: 1.167
+    chargeAnimationHitObjectName: Charge Hit
+    chargeHitObjectSound: {fileID: 0}
+    chargeHitObjectTime: 1.167
+    chargeAnimationMissName: Charge Hit
+    chargeMissSound: {fileID: 0}
+    chargeMissTime: 1.167
+    healTimeOne: 0.5
+    healTimeTwo: 0.5
+    healAmount: 5
+    healStartAmount: 2
+    healAnimationName: Heal
+    healSound: {fileID: 0}
+    combos: []
+  quickAttack: 0
+  quickAttackSettings:
+    stabDamage: 75
+    stabPenetrationPower: 2
+    stabReach: 2
+    stabHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    stabRagdollForce: 500
+    stabWindupAnimationName: Quick Windup
+    stabWindupSound: {fileID: 0}
+    stabWindupTime: 0.2
+    stabAnimationHitName: Quick Hit
+    stabHitSound: {fileID: 0}
+    stabHitTime: 0.3
+    stabAnimationHitObjectName: Quick Hit
+    stabHitObjectSound: {fileID: 0}
+    stabHitObjectTime: 0.3
+    stabAnimationMissName: Quick Hit
+    stabMissSound: {fileID: 0}
+    stabMissTime: 0.3
+    chargeDamageStart: 10
+    chargeDamageCharged: 90
+    chargePenetrationPower: 2
+    chargeReach: 2
+    chargeHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    chargeRagdollForce: 500
+    chargeChargeAnimation: Charge Windup
+    chargeChargeSound: {fileID: 0}
+    chargeChargeTime: 0.3
+    chargeWindupAnimationName: Charge Windup
+    chargeWindupSound: {fileID: 0}
+    chargeWindupTime: 0.3
+    chargeAnimationHitName: Charge Hit
+    chargeHitSound: {fileID: 0}
+    chargeHitTime: 0.5
+    chargeAnimationHitObjectName: Charge Hit Object
+    chargeHitObjectSound: {fileID: 0}
+    chargeHitObjectTime: 0.5
+    chargeAnimationMissName: Charge Miss
+    chargeMissSound: {fileID: 0}
+    chargeMissTime: 0.5
+    healTimeOne: 0.5
+    healTimeTwo: 0.5
+    healAmount: 5
+    healStartAmount: 2
+    healAnimationName: Heal
+    healSound: {fileID: 0}
+    combos: []
+  quickAttackSkipsPutaway: 1
+  drawSound: {fileID: 0}
+  putawaySound: {fileID: 0}
+  voiceMeleeSoundID: 0
+  weaponDelayBaseAmount: 1
+  weaponDelayMaxAmount: 0.02
+  weaponDelayAimingMultiplier: 0.3
+  weaponDelaySmooth: 3
+  weaponTiltEnabled: 1
+  weaponTiltIntensity: 5
+  weaponTiltReturnSpeed: 3
+  fallDownAmount: 10
+  fallDownMinOffset: -6
+  fallDownMaxoffset: 6
+  fallDownTime: 0.1
+  fallDownReturnSpeed: 1
+  genericGunAnimatorControllerPrefab: {fileID: 1896438800841234, guid: 32d35967d844b94479b79cb464e4bea5,
+    type: 3}
+  useGenericWalkAnim: 1
+  useGenericRunAnim: 1
