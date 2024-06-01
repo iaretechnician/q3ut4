@@ -16,10 +16,9 @@ MonoBehaviour:
     type: 3}
   gameModeName: Deathmatch
   traditionalMaps:
-  - {fileID: 11400000, guid: 7f7c0e2ed4697dd46b3bc62a8250f2f7, type: 2}
-  - {fileID: 11400000, guid: eed4fe366e088cb4a9dfd1ff682049ee, type: 2}
-  - {fileID: 11400000, guid: ce8f0bb187976c54ab05dc046451ea9e, type: 2}
-  - {fileID: 11400000, guid: 0bda4f8ffa283864a88ef762c78c7555, type: 2}
+  - {fileID: 11400000, guid: ea60caff86460e74492904ca9820374d, type: 2}
+  - {fileID: 11400000, guid: 5186c10b4730fd54a8459b0d488c3e95, type: 2}
+  - {fileID: 11400000, guid: be3ee00942ce62741846828fb1b04be9, type: 2}
   traditionalPlayerLimits: 020406080a
   traditionalPlayerNeeded: 00000000020000000400000006000000080000000a000000
   traditionalDurations: 2c01000058020000b0040000

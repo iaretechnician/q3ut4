@@ -58,10 +58,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 33db86d81b65e454b827d8bca37b807f, type: 2}
   pointsPerKill: 100
   enableTouchscreenInput: 0
-  perspectiveMode: 2
+  perspectiveMode: 0
   defaultPerspective: 1
   thirdPersonAiming: 0
-  enableDropWeaponOnSceneSpawnedWeapons: 0
+  enableDropWeaponOnSceneSpawnedWeapons: 1
   enableAutoReload: 0
   debugEnableUnlimitedBullets: 0
   debugEnableUnlimitedReloads: 0
